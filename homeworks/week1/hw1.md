@@ -5,7 +5,7 @@
 3. 透過 command line 移動到 clone 下來的資料夾底下  
 4. 創立並切換到分支 week1
 5. 將作業完成並儲存
-6. 透過 git commit -am 'add(hw1.md) week1 hw1 done'
+6. 透過 git commit -am 'add(`hw1.md`) week1 hw1 done'
 7. git status 確認狀態
 8. 確認沒問題後將檔案 push
 9. 到自己的 Repositories 上發起 PR 並拿到 PR 連結
