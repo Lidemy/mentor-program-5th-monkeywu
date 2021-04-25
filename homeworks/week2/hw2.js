@@ -1,5 +1,5 @@
 function capitalize(str) {
-  if ( typeof str === 'string' && str.length > 0 ) {
+  if ( typeof str === 'string' ) {
       if( /^[a-zA-Z]+$/.test(str[0]) ) {
           if ( /^[a-z]+$/.test(str[0]) ) {
               str = str[0].toUpperCase() + str.slice(1)
@@ -7,7 +7,7 @@ function capitalize(str) {
           return str 
       }
   } else {
-      console.error('參數必須為字串且不得為空')
+      console.error('參數必須為字串')
   }
 }
 

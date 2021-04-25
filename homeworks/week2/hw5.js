@@ -12,8 +12,8 @@ function join(arr, concatStr) {
 }
 
 function repeat(str, times) {
-  if ( typeof str !== 'string' ) {
-      console.error('參數str必須為字串')
+  if ( typeof str !== 'string' || typeof times !== 'number' ) {
+      console.error('參數str必須為字串且參數times必須為數字')
       return
   } else {
       let result = ''

@@ -1,8 +1,8 @@
 function reverse(str) {
   if ( typeof str === 'string' && str.length > 0 ) {
-      let num = str.length -1
+      let charIndex = str.length -1
       let result = ''
-    for ( let i = num; i >= 0 ; i-- ) {
+    for ( let i = charIndex; i >= 0 ; i-- ) {
         result += str[i]
     }
     return result

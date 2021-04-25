@@ -3,10 +3,8 @@ function printStars(n) {
         console.error('n必須為數字')
         return 
     } else {
-        if ( 1 <= n && n <= 30 ) {
-            for ( let i = 0; i < n; i++ ) {
-                console.log('*')
-            }
+        for ( let i = 0; i < n; i++ ) {
+            console.log('*')
         }
     }
 }
